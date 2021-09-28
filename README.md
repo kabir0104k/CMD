@@ -3,8 +3,8 @@
 
 ## Basic Commands 
 ```bash
-1. > cd cd/ cd..(changing Directory)
-2. > mkdir/md(Creating Folder)
+> cd cd/ cd..(changing Directory)
+> mkdir/md(Creating Folder)
 3. > type nul>abc.txt/jpg/zip/mp3/mp4 (Exporting Any Extension File)
 4. > rmdir/rd(Delete Folder)
 5. > dir/ad(Only Folders)
