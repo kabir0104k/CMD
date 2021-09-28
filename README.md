@@ -1,4 +1,6 @@
 # CMD
+```bash 
+
 1. > cd cd/ cd..(changing Directory)
 2. > mkdir/md(Creating Folder)
 3. > type nul>abc.txt/jpg/zip/mp3/mp4 (Exporting Any Extension File)
