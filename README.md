@@ -1,6 +1,5 @@
 # CMD
 
----------
 ## Basic Commands 
 ```bash
 > cd cd/ cd..(changing Directory)
