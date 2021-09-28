@@ -2,7 +2,7 @@
 
 
 ## Basic Commands 
-`
+
 > cd cd/ cd..(changing Directory)
 > mkdir/md(Creating Folder)
 > type nul>abc.txt/jpg/zip/mp3/mp4 (Exporting Any Extension File)
