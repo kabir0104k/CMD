@@ -9,7 +9,7 @@
 9. xcopy{(*).Only Extension} "Folder Name" (Copy All File)
 10. Move{Name With Extension} "Folder Name" (Move Single File)
 11. Move{(*).Only Extension} "Folder Name" (Move All File)
-12. cd  Move abc.txt "C:\users\ranja\Desktop (Move From Folder)
+12. cd  Move abc.txt "C:\users\KABIR\Desktop (Move From Folder)
 13. del (.Extension)
 14. del (*.Extension)
 15. ren abc.txt = ABC.txt (Rename)
@@ -42,7 +42,7 @@
 42. Diskpart>list disk>select disk 2>clean>create partition primary>
 43. select partition 2>format quick>active>assign(For Bootable Pen Drive)
 44. netsh wlan show profiles (For Connected Wifi Networks)
-45. netsh wlan show profile name=RANJAN key clear (For Wifi Pass)
+45. netsh wlan show profile name=KABIR key clear (For Wifi Pass)
 46. hostname(For Getting Computer Name)
 47. ipconfig (For Getting Ip Address)
 48. ping 127.0.0.1 (For Checking Connection)
