@@ -2,7 +2,7 @@
 
 
 ## Basic Commands 
-
+```bash
 1. > cd cd/ cd..(changing Directory)
 2. > mkdir/md(Creating Folder)
 3. > type nul>abc.txt/jpg/zip/mp3/mp4 (Exporting Any Extension File)
@@ -17,7 +17,7 @@
 12. > cd  Move abc.txt "C:\users\KABIR\Desktop (Move From Folder)
 13. > del (.Extension)
 14. > del (*.Extension)
-
+```
 ### Tasks & Services
 
 15. > ren abc.txt = ABC.txt (Rename)
