@@ -1,3 +1,4 @@
+<div align="center">
 # CMD
 
 ## Basic Commands 
