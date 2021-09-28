@@ -19,7 +19,7 @@
 14. > del (*.Extension)
 ```
 ### Tasks & Services
-
+```bash
 15. > ren abc.txt = ABC.txt (Rename)
 16. > tasklist (Show All Running Task)
 17. > taskkill /pid Console No. (To Kill Task)
@@ -27,44 +27,60 @@
 19. > net stop/start "Target" (For Stopping Services)
 20. > driverquery(Installed Driver List)
 21. > netsh advfirewall set all state off(Firewall Off)
+```
 ## WMIC Commands
+```bash
 22. > wmic cpu (CPU Information)
 23. > wmic bios get serialnumber (BIOS Serial Number)
 24 .> wmic nic get macaddress/getmac (For Mac Address)
 25. > wmic partition get name,size,type (Info Of HDD Partitions)
 26. > wmic process list brief(Task Process)
 27. > wmic process where="abc.extension" call terminate (Terminate Task)
+```
 ## System Info
+```bash
 28. > vol D:(Serial No. Of HDD Partition)
 29. > winver (For Windows Version)
 30. > chkdsk (Health Status Of HDD
 31. > systeminfo (System Info)
+```
 ## User Management
+```bash
 32. > net user "Name" "Pass" /add (For Adding User)
 33. > net user "Name" /del (For Deleting User)
 34. > net user "Name" *(Bypass Password)
+```
 ## Best Utility
+```bash
 35. > copy con  Name.txt(Ctrl+Z)
 36. > echo ________  > Name.txt (Exporting Written Text File)
 37. > cipher /e (For Encrypting Files)
 38. > cipher /d (For Decrypting Files)
 39. > attrib +h +r +s  abc.Extension (Hide All File)
 40. > attrib -h -r -s  abc.Extension (Show All File)
+```
 ## Drive Operations
+```bash
 41. > label D: (For Giv ing Name To Drive)
 42. > Diskpart>list disk>select disk 2>clean>create partition primary>
 43. > select partition 2>format quick>active>assign(For Bootable Pen Drive)
+```
 ## Network Shell
+```bash
 44. > netsh wlan show profiles (For Connected Wifi Networks)
 45. > netsh wlan show profile name=KABIR key clear (For Wifi Pass)
+```
 ## Basic Network Essential
+```bash
 46. > hostname(For Getting Computer Name)
 47. > ipconfig (For Getting Ip Address)
 48. > ping 127.0.0.1 (For Checking Connection)
 49. > tracert www.google.com (For Tracing Route Towards Destination)
 50. > netstat -e (Getting Send Receive Data Info)
 51. > nslookup www.google.com (For Converting Domain Into Ip)
+```
 ## Interesting Commands
+```bash
 52. > color ? (Change Terminal Colour)
 53. > title "Name" (Change Terminal Name)
 54. > mode 30,50,90 (Terminal Resizing)
@@ -74,3 +90,4 @@
 58. > time (Current Time)
 59. > shutdown -s -t 05 (Shutdown Pc)
 60. > restart  -r -t 05 (Restart Pc)
+```
