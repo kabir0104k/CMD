@@ -1,6 +1,6 @@
 # CMD
 
-
+---------
 ## Basic Commands 
 ```bash
 > cd cd/ cd..(changing Directory)
@@ -18,6 +18,8 @@
 > del (.Extension)
 > del (*.Extension)
 ```
+
+---------
 ### Tasks & Services
 ```bash
 > ren abc.txt = ABC.txt (Rename)
@@ -28,6 +30,8 @@
 > driverquery(Installed Driver List)
 > netsh advfirewall set all state off(Firewall Off)
 ```
+
+---------
 ## WMIC Commands
 ```bash
 > wmic cpu (CPU Information)
@@ -37,6 +41,8 @@
 > wmic process list brief(Task Process)
 > wmic process where="abc.extension" call terminate (Terminate Task)
 ```
+
+---------
 ## System Info
 ```bash
 > vol D:(Serial No. Of HDD Partition)
@@ -44,12 +50,16 @@
 > chkdsk (Health Status Of HDD
 > systeminfo (System Info)
 ```
+
+---------
 ## User Management
 ```bash
 > net user "Name" "Pass" /add (For Adding User)
 > net user "Name" /del (For Deleting User)
 > net user "Name" *(Bypass Password)
 ```
+
+---------
 ## Best Utility
 ```bash
 > copy con  Name.txt(Ctrl+Z)
@@ -59,17 +69,23 @@
 > attrib +h +r +s  abc.Extension (Hide All File)
 > attrib -h -r -s  abc.Extension (Show All File)
 ```
+
+---------
 ## Drive Operations
 ```bash
 > label D: (For Giv ing Name To Drive)
 > Diskpart>list disk>select disk 2>clean>create partition primary>
 > select partition 2>format quick>active>assign(For Bootable Pen Drive)
 ```
+
+---------
 ## Network Shell
 ```bash
 > netsh wlan show profiles (For Connected Wifi Networks)
 > netsh wlan show profile name=KABIR key clear (For Wifi Pass)
 ```
+
+---------
 ## Basic Network Essential
 ```bash
 > hostname(For Getting Computer Name)
@@ -79,6 +95,8 @@
 > netstat -e (Getting Send Receive Data Info)
 > nslookup www.google.com (For Converting Domain Into Ip)
 ```
+
+---------
 ## Interesting Commands
 ```bash
 > color ? (Change Terminal Colour)
