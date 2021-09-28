@@ -31,7 +31,7 @@
 31. systeminfo (System Info)
 32. net user "Name" "Pass" /add (For Adding User)
 33. net user "Name" /del (For Deleting User)
-34. net user "Name" *(Bypass Password)
+34. net user "Name" *(Bypass Password) 
 35. copy con  Name.txt(Ctrl+Z)
 36. echo ________  > Name.txt (Exporting Written Text File)
 37. cipher /e (For Encrypting Files)
