@@ -46,7 +46,7 @@
 ```bash
 > vol D:(Serial No. Of HDD Partition)
 > winver (For Windows Version)
-> chkdsk (Health Status Of HDD
+> chkdsk (Health Status Of HDD)
 > systeminfo (System Info)
 ```
 
