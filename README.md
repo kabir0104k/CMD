@@ -37,7 +37,9 @@
 > wmic bios get serialnumber (BIOS Serial Number)
 > wmic nic get macaddress/getmac (For Mac Address)
 > wmic partition get name,size,type (Info Of HDD Partitions)
-> wmic process list brief(Task Process)
+> wmic process list brief (Task Process)
+> wmic useraccount get name (All User Details)
+> wmic useraccount get name,sid (All User SID Privilege)
 > wmic process where="abc.extension" call terminate (Terminate Task)
 ```
 
